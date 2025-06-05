@@ -1,0 +1,48 @@
+.timeline-vertical {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.timeline-vertical h2 {
+  text-align: center;
+  color: #1c6605;
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 40px;
+  border-left: 4px solid #1c6605;
+}
+
+.timeline-item .dot {
+  position: absolute;
+  left: -24px;
+  top: 0;
+  background-color: #1c6605;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-item .content h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #1c6605;
+}
+
+.timeline-item .content p {
+  margin: 5px 0 0;
+  color: #333;
+}
+
