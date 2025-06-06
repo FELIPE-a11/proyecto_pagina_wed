@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-container {
+    padding-top: 60px;
+}
+
+.ubicacion,
+.formulario {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.ubicacion p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+footer p.copyright {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
+/* Móviles (hasta 768px) */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .menu-links {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .hero-section {
+    height: auto;
+    padding: 20px 10px;
+    background-size: cover;
+    column-count: 1;
+  }
+
+  .contenedor-tarjetas {
+    height: auto;
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .watch-container {
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+  }
+
+  .watch-card {
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .titulo-catalogo {
+    font-size: 1.8rem;
+    margin: 20px 0;
+  }
+}
